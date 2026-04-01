@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ti" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ጽሑፋት — ጸጋኒ ፉሩስ</title>
+  <meta name="description" content="ኩሎም ጽሑፋት ጸጋኒ ፉሩስ" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <main>
+    <div class="page-header">
+      <div class="flag-accent">
+        <div class="flag-stripe" style="width:20px;background:#4A8C3F;"></div>
+        <div class="flag-stripe" style="width:20px;background:#1C3F8B;"></div>
+        <div class="flag-stripe" style="width:20px;background:#C49A1A;"></div>
+        <div class="flag-stripe" style="width:20px;background:#8B1A1A;"></div>
+      </div>
+      <h1 class="page-title">ጽሑፋት</h1>
+      <p class="page-subtitle">All writings — ኩሎም ጽሑፋት</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">ኩሉ</button>
+      <button class="filter-btn" data-filter="politics">ፖለቲካ</button>
+      <button class="filter-btn" data-filter="philosophy">ፍልስፍና</button>
+      <button class="filter-btn" data-filter="history">ታሪኽ</button>
+      <button class="filter-btn" data-filter="culture">ባህሊ</button>
+    </div>
+
+    <div class="articles-grid" id="articles-container"></div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/articles.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    renderNav('articles');
+    renderArticlesPage();
+  </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ti" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ጸጋኒ ፉሩስ — Rebuilding the Collapsed</title>
+  <meta name="description" content="ፖለቲካዊን ፍልስፍናዊን ጽሑፋት ብዛዕባ ኤርትራ" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <div class="flag-accent">
+          <div class="flag-stripe" style="width:28px;background:#4A8C3F;"></div>
+          <div class="flag-stripe" style="width:28px;background:#1C3F8B;"></div>
+          <div class="flag-stripe" style="width:28px;background:#C49A1A;"></div>
+          <div class="flag-stripe" style="width:28px;background:#8B1A1A;"></div>
+        </div>
+        <p class="hero-eyebrow">ፖለቲካ · ፍልስፍና · ኤርትራ</p>
+        <h1 class="hero-title">ጸጋኒ<br>ፉሩስ</h1>
+        <p class="hero-subtitle">Rebuilding the Collapsed</p>
+        <div class="hero-divider"></div>
+        <p class="hero-desc">ሓሳባት፡ ትንታነ፡ ፖለቲካዊ ትዕዝብቲ — ካብ ዕምቆት ኤርትራዊ ተሞክሮ።</p>
+      </div>
+
+      <div class="hero-right">
+        <p class="featured-label">ናይ ቀረባ ጽሑፋት</p>
+        <div id="home-articles"></div>
+      </div>
+    </section>
+
+    <div class="stats-bar">
+      <div class="stat-item">
+        <p class="stat-num" id="article-count">—</p>
+        <p class="stat-label">ጽሑፋት</p>
+      </div>
+      <div class="stat-item" style="padding-left:2rem;">
+        <p class="stat-num">١</p>
+        <p class="stat-label">ጸሓፊ</p>
+      </div>
+      <div class="stat-item" style="padding-left:2rem;">
+        <p class="stat-num">∞</p>
+        <p class="stat-label">ሓሳባት</p>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/articles.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    renderNav('home');
+    renderHomeArticles();
+  </script>
+</body>
+</html>
