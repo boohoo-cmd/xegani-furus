@@ -148,28 +148,7 @@ nav {
 .mobile-menu a.active,
 .mobile-menu a:hover { color: var(--red); }
 
-/* FLAG ANIMATION */
-.flag-anim-wrap {
-  margin-bottom: 2rem;
-  width: 160px;
-  height: 90px;
-  overflow: hidden;
-}
-
-#flag-svg {
-  width: 160px;
-  height: 90px;
-  display: block;
-}
-
-/* Final state: lines */
-#flag-svg.lines-state #f-green  { transition: all 1.5s cubic-bezier(0.4,0,0.2,1); }
-#flag-svg.lines-state #f-blue   { transition: all 1.5s cubic-bezier(0.4,0,0.2,1) 0.05s; }
-#flag-svg.lines-state #f-red    { transition: all 1.5s cubic-bezier(0.4,0,0.2,1) 0.1s; }
-#flag-svg.lines-state #f-tri    { transition: all 1.5s cubic-bezier(0.4,0,0.2,1); }
-#flag-svg.lines-state #f-emblem { transition: all 1s cubic-bezier(0.4,0,0.2,1); }
-
-/* FLAG ACCENT (used on other pages) */
+/* FLAG ACCENT */
 .flag-accent {
   display: flex;
   gap: 3px;

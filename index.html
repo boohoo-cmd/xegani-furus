@@ -14,14 +14,11 @@
   <main>
     <section class="hero">
       <div class="hero-left">
-        <div class="flag-anim-wrap">
-          <svg id="flag-svg" viewBox="0 0 160 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMid meet">
-            <rect id="f-green" x="0" y="0"  width="160" height="30" fill="#4A8C3F"/>
-            <rect id="f-blue"  x="0" y="30" width="160" height="30" fill="#1C3F8B"/>
-            <rect id="f-red"   x="0" y="60" width="160" height="30" fill="#8B1A1A"/>
-            <polygon id="f-tri" points="0,0 80,45 0,90" fill="#C8392B"/>
-            <circle id="f-emblem" cx="32" cy="45" r="10" fill="none" stroke="#C49A1A" stroke-width="2"/>
-          </svg>
+        <div class="flag-accent">
+          <div class="flag-stripe" style="width:28px;background:#4A8C3F;"></div>
+          <div class="flag-stripe" style="width:28px;background:#1C3F8B;"></div>
+          <div class="flag-stripe" style="width:28px;background:#C49A1A;"></div>
+          <div class="flag-stripe" style="width:28px;background:#8B1A1A;"></div>
         </div>
         <p class="hero-eyebrow">ፖለቲካ · ፍልስፍና · ኤርትራ</p>
         <h1 class="hero-title">ጸጋኒ<br>ፉሩስ</h1>
@@ -59,7 +56,6 @@
   <script>
     renderNav('home');
     renderHomeArticles();
-    initFlagAnimation();
   </script>
 </body>
 </html>
